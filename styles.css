@@ -1,0 +1,422 @@
+* {
+      margin: 0;
+}
+
+#filters-mobile {
+      display: none;
+}
+
+#restaurant-mobile {
+      display: none;
+}
+
+nav {
+      display: flex;
+      background: #CE0505;
+      height: 80px;
+      align-items: center;
+      justify-content: space-between;
+}
+
+#edureka-logo {
+      font-family: 'Poppins', sans-serif;
+      font-size: 33px;
+      font-weight: 600;
+      border-radius: 52px;
+      width: 52px;
+      height: 52px;
+      text-align: center;
+      background-color: white;
+      color: #EB2929;
+      margin-left: 102px;
+}
+
+#sign-up {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      display: flex;
+      margin-right: 101px;
+      color: white;
+}
+
+#login {
+      padding-right: 26px;
+      align-self: center;
+}
+
+#create-account {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      color: white;
+      background-color: #CE0505;
+      border: 1px solid #FFFFFF;
+      border-color: white;
+      font-size: 16px;
+      width: 181px;
+      height: 46px;
+}
+
+main {
+      background-color: #FBFBFB;
+}
+
+body {
+      height: 130vh;
+}
+
+#heading {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 36px;
+      color: #192F60;
+      padding-left: 113px;
+      padding-top: 37px;
+}
+
+#filters {
+      width: 260px;
+      height: 682px;
+      margin-left: 113px;
+      margin-top: 27px;
+      background-color: white;
+      box-shadow: 0px 3px 6px #00000029;
+      opacity: 1;
+      position: absolute;
+}
+
+#filters-text {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      color: #192F60;
+      font-size: 18px;
+      padding-top: 17px;
+      padding-left: 26px;
+}
+
+
+#select-location{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      color: #192F60;
+      padding-top: 10px;
+      padding-left: 26px;
+}
+
+select {
+      width: 208px;
+      height: 35px;
+      color: #8C96AB;
+      padding-left: 15px;
+      margin-top: 11px;
+      font-size: 14px;
+      border-radius: 3px;
+      margin-left: 26px;
+      border: 1px solid #8C96AB;
+      cursor: pointer;
+}
+
+#cuisine {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      color: #192F60;
+      padding-left: 26px;
+      padding-top: 22px;
+}
+
+input[type=checkbox] {
+      margin-left: 26px;
+      margin-top: 12px;
+      cursor: pointer;
+      border: 3px #192F60;
+}
+
+#filterlabel {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      padding-left: 11px;
+      color: #8C96AB
+}
+
+#foodtypes {
+      margin-top: 15px;
+}
+
+#cost {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      padding-left: 26px;
+      padding-top: 26px;
+}
+
+#cost-filters {
+      margin-top: 15px;
+}
+
+#cost-input {
+      border: 2px solid #3A5075;
+      border-radius: 9px;
+}
+
+#sort {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      color: #192F60;
+      padding-top: 29px;
+      padding-left: 26px;
+}
+
+#price {
+      padding-top: 15px;
+}
+
+#restaurant {
+      display: flex;
+      width: 794px;
+      height: 291px;
+      margin-left: 418px;
+      background-color: white;
+      box-shadow: 0px 3px 6px #00000029;
+}
+
+img {
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      padding-top: 25px;
+      padding-left: 35px;
+}
+
+#big-chili {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 30px;
+      color: #192F60;
+      padding-top: 39px;
+      padding-left: 196px;
+}
+
+#fort {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      color: #192F60;
+      font-size: 16px;
+      padding-top: 5px;
+      padding-left: 196px;
+}
+
+#adress {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      color: #636F88;
+      font-size: 16px;
+      padding-top: 5px;
+      padding-left: 196px;
+}
+
+#line-break {
+      width: 726px;
+      background-color: #DEDFE5;
+      height: 1px;
+      margin-top: 38px;
+      margin-left: 35px;
+}
+
+#cuisine-cost-for-two{
+      position: absolute;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      color: #636F88;
+      font-size: 16px;
+      padding-top: 26px;
+      padding-left: 35px;
+}
+
+#type-price {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      color: #192F60;
+      margin-left: 216px;
+      padding-top: 26px;
+      font-size: 16px;
+}
+
+.two {
+      margin-top: 34px;
+}
+
+.one {
+      margin-top: 27px;
+}
+
+a {
+      color: black;
+}
+
+#test {
+      margin-left: 400px;
+}
+
+#pagination {
+      width: 330px;
+      height: 36px;
+      display: flex;
+      margin-left: 650px;
+      justify-content: space-between;
+      margin-top: 38px;
+}
+
+.pages {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      width: 36px;
+      height: 36px;
+      color: #8C96AB;
+      background-color: #FFFFFF;
+      border: 1px solid #8C96AB;
+      border-radius: 7px;
+}
+
+.active {
+      background:#8C96AB;
+      color: white;
+}
+
+@media screen and (max-width: 420px) {
+      nav {
+            width: 421px;
+            height: 60px;
+      }
+
+      #edureka-logo {
+            width: 40px;
+            height: 40px;
+            font-size: 26px;
+            margin-left: 20px;
+      }
+
+      #sign-up {
+            justify-content: space-around;
+            margin-right: 24px;
+      }
+
+      #login {
+            font-size: 13px;
+            padding-right: 19px;
+      }
+
+      #create-account {
+            font-size: 13px;
+            width: 146px;
+            height: 32px;
+      }
+
+      #heading{
+            font-size: 20px;
+            padding-top: 31px;
+            padding-left: 24px;
+      }
+
+      #filters-mobile{
+            display: block;
+      }
+
+      select {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            color: #192F60;
+            border: 1px solid #E0E0E0;
+            box-shadow: 0px 3px 3px #0000001A;
+            margin-top: 12px;
+      }
+
+      #filters-mobile-form {
+            width: 386px;
+            height: 53px;
+            margin-left: 20px;
+      }
+
+      #filters {
+            display: none;
+      }
+
+      #restaurant {
+            width: 419px;
+            height: 224px;
+            margin: 0;
+            margin-top: 18px;
+      }
+
+      img {
+            width: 70px;
+            height: 70px;
+            padding-top: 31px;
+            padding-left: 25px;
+      }
+
+      #big-chili {
+            font-size: 20px;
+            padding-top: 33px;
+            padding-left: 110px;
+      }
+
+      #fort {
+            font-size: 13px;
+            padding-left: 114px;
+            padding-top: 0;
+      }
+
+      #adress {
+            font-size: 12px;
+            padding-left: 112px;
+      }
+
+      #line-break {
+            width: 374px;
+            margin-left: 22px;
+            margin-top: 27px
+      }
+
+      #cuisine-cost-for-two {
+            font-size: 13px;
+            padding-top: 20px;
+            padding-left: 25px;
+      }
+
+      #type-price{
+            font-size: 13px;
+            padding-top: 20px;
+      }
+
+      .two {
+            margin-top: 24px;
+      }
+
+      #restaurant-mobile {
+            display: flex;
+            width: 419px;
+            height: 224px;
+            margin: 0;
+            margin-top: 19px;     
+            background-color: white;
+            box-shadow: 0px 3px 6px #00000029;
+      }
+
+      #pagination {
+            width: 292px;
+            height: 32px;
+            margin-top: 31px;
+            margin-left: 64px;
+      }
+
+      .pages {
+            width: 32px;
+            height: 32px;
+      }
+}
