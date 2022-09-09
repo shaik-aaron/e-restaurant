@@ -287,9 +287,9 @@ a {
       color: white;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 768px) {
       nav {
-            width: 421px;
+            width: 100vw;
             height: 60px;
       }
 
@@ -337,7 +337,7 @@ a {
       }
 
       #filters-mobile-form {
-            width: 386px;
+            width: 80%;
             height: 53px;
             margin-left: 20px;
       }
@@ -347,7 +347,7 @@ a {
       }
 
       #restaurant {
-            width: 419px;
+            width: 100%;
             height: 224px;
             margin: 0;
             margin-top: 18px;
@@ -400,7 +400,7 @@ a {
 
       #restaurant-mobile {
             display: flex;
-            width: 419px;
+            width: 100%;
             height: 224px;
             margin: 0;
             margin-top: 19px;     
@@ -411,8 +411,9 @@ a {
       #pagination {
             width: 292px;
             height: 32px;
-            margin-top: 31px;
+            margin-top: 31px !important;
             margin-left: 64px;
+            margin: 0 auto;
       }
 
       .pages {
